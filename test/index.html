@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ticket</title>
+    
+</head>
+<body>
+    <h1>If you want to view/change the ticket status enter your Id here:</h1>
+      <input type="number" id="userId"/>
+      <button id="enterBtn">Enter</button><button onClick="statusChange()">Change the status</button>
+      <div id="result"></div>
+      <h1>Creating a new ticket - form</h1>
+        <Form>
+            <label for="name">Name</label>
+            <input type="text" id="name" required><br>
+            <label for="phone">Phone</label>
+            <input type="number" id="phone" required><br>
+            <label for="id">id</label>
+            <input type="number" id="id" required><br>
+            <label for="issue">issue</label>
+            <input type="text" id="issue" required><br>
+            <button id="create">create a new ticket</button>
+        </Form>
+      
+      <script src="index.js"></script>
+</body>
+</html>
